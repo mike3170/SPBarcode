@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stit.jhbarcode.MainActivity">
+<!--    <item-->
+<!--        android:id="@+id/language"-->
+<!--        android:title="Language" >-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/lan_cht"-->
+<!--                android:title="繁體中文" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/lan_ph"-->
+<!--                android:title="ang Pilipinas" />-->
+<!--            <item-->
+<!--                android:id="@+id/lan_id"-->
+<!--                android:title="Indonesia" />-->
+<!--            <item-->
+<!--                android:id="@+id/lan_vn"-->
+<!--                android:title="Tiếng Việt" />-->
+<!--        </menu>-->
+<!--    </item>-->
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="登出"
+        app:showAsAction="never" />
+</menu>
